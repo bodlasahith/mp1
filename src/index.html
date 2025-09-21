@@ -1,13 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneSpace - Desktop Workspace Revolution</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.scss" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar" id="mainNav">
+      <div class="nav-container">
+        <a class="navbar-brand" href="#page-top">
+          <img src="assets/logo.jpg" alt="OneSpace Logo" class="logo-img" />
+          OneSpace
+        </a>
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#features">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header class="hero-section" id="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h4 class="hero-subtitle">Welcome To</h4>
+          <div class="hero-title-container">
+            <h1 class="hero-title">OneSpace</h1>
+            <img src="assets/logo.jpg" alt="OneSpace Logo" class="hero-logo" />
+          </div>
+          <p class="hero-description">
+            We're designing a new kind of desktop workspace that brings your essential apps into one
+            easy-to-use space. Download our MVP and let us know what you think!
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="assets/frame1.png" alt="OneSpace Application Screenshot" />
+        </div>
+      </div>
+
+      <!-- HTML5 Video Element -->
+      <div class="video-section">
+        <h3>See OneSpace in Action</h3>
+        <video controls width="100%" height="auto">
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </header>
+
+    <!-- Features Section - Multi-column Layout -->
+    <section class="features-section" id="features">
+      <div class="section-container">
+        <div class="features-content">
+          <div class="features-image">
+            <img src="assets/frame2.png" alt="OneSpace Features" />
+          </div>
+          <div class="features-text">
+            <h1>A New Desktop Workspace</h1>
+            <div class="features-grid">
+              <div class="feature-item">
+                <i class="fas fa-file-pdf feature-icon"></i>
+                <h3>Connected Apps</h3>
+                <p>
+                  OneSpace connects your apps in a single interface. Our MVP connects a PDF
+                  processor with a document editor.
+                </p>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-file-alt feature-icon"></i>
+                <h3>Revolutionized note-taking</h3>
+                <p>
+                  Our annotation system aggregates your notes and ideas by categories, color, and
+                  document.
+                </p>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-star feature-icon"></i>
+                <h3>Powered by AI</h3>
+                <p>Streamline your workflow with our AI assistant</p>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-folder-open feature-icon"></i>
+                <h3>Easy organization</h3>
+                <p>Have a clean space for all files and documents all the time!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision Section with Fixed Background -->
+    <section class="vision-section" id="vision">
+      <div class="vision-content">
+        <h6>Our Vision</h6>
+        <h2>
+          The OneSpace workspace integrates your tools, apps, tabs, and windows into a single,
+          beautiful interface, allowing you to spend less time toggling and more time achieving.
+          Join us in reshaping the future of work, one desktop at a time.
+        </h2>
+      </div>
+    </section>
+
+    <!-- Future Plans Section -->
+    <section class="future-section">
+      <div class="section-container">
+        <div class="future-content">
+          <div class="future-text">
+            <h2>Thinking beyond the MVP</h2>
+            <p>
+              Our goal is to offer you the ability to connect any two apps within OneSpace. At
+              present, our MVP allows for the integration of a PDF processor and a word processor.
+              We are excited to add more options soon, including spreadsheets, browsers, and beyond!
+            </p>
+          </div>
+          <div class="future-image">
+            <img src="assets/frame3.png" alt="Future OneSpace Features" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+      <div class="testimonial-content">
+        <h2>
+          "This is actually really darn good. I like how you can actually use more than one app,
+          natively, in one file. That's never really been done before...or if it has, not well
+          enough to know about it."
+        </h2>
+        <p>Matthew H<br />Product Tester & Entrepreneur</p>
+      </div>
+    </section>
+
+    <!-- Team Section with Carousel -->
+    <section class="team-section" id="team">
+      <div class="section-container">
+        <div class="team-header">
+          <h2>Meet Our Team</h2>
+          <p>Our dedicated team is working hard to bring you the best experience possible.</p>
+        </div>
+        <div class="carousel-container">
+          <div class="carousel" id="teamCarousel">
+            <div class="carousel-slide active">
+              <div class="team-grid">
+                <div
+                  class="team-member"
+                  data-name="Paris Hannon"
+                  data-description="Co-Founder & CEO"
+                  data-education="JD, University of Illinois College of Law"
+                  data-work="Current: Commercial Litigation"
+                  data-image="assets/paris.png"
+                >
+                  <img src="assets/paris.png" alt="Paris Hannon" />
+                  <div class="member-name">Paris Hannon</div>
+                </div>
+                <div
+                  class="team-member"
+                  data-name="Umang Kedia"
+                  data-description="Co-Founder & CTO"
+                  data-education="Masters of Technology Management, University of Illinois Gies College of Business"
+                  data-work="Current: Sr. Cloud Developer, HPE Prev: Publicis Sapient"
+                  data-image="assets/umang.png"
+                >
+                  <img src="assets/umang.png" alt="Umang Kedia" />
+                  <div class="member-name">Umang Kedia</div>
+                </div>
+                <div
+                  class="team-member"
+                  data-name="Weston Hannon"
+                  data-description="Co-Founder & CFO"
+                  data-education="BS Economics, Union College"
+                  data-work="Prev: CoStar Group"
+                  data-image="assets/weston.png"
+                >
+                  <img src="assets/weston.png" alt="Weston Hannon" />
+                  <div class="member-name">Weston Hannon</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="team-grid">
+                <div
+                  class="team-member"
+                  data-name="Ayush Jain"
+                  data-description="Founding Developer"
+                  data-education="BS Computer Science + Philosophy, University of Illinois College of LAS"
+                  data-work="Current: Reuters Prev: CCC Intelligent Solutions"
+                  data-image="assets/ayush.png"
+                >
+                  <img src="assets/ayush.png" alt="Ayush Jain" />
+                  <div class="member-name">Ayush Jain</div>
+                </div>
+                <div
+                  class="team-member"
+                  data-name="Siddharth Rajaraman"
+                  data-description="Founding Developer"
+                  data-education="BS Computer Engineering, University of Illinois Grainger College of Engineering"
+                  data-work="Current: Red Hat"
+                  data-image="assets/sid.png"
+                >
+                  <img src="assets/sid.png" alt="Siddharth Rajaraman" />
+                  <div class="member-name">Siddharth Rajaraman</div>
+                </div>
+                <div
+                  class="team-member"
+                  data-name="Sahith Bodla"
+                  data-description="Founding Developer"
+                  data-education="BS Computer Science & Minor Economics, University of Illinois Grainger College of Engineering"
+                  data-work="Current: Amazon Prev: Gen Digital"
+                  data-image="assets/sahith.png"
+                >
+                  <img src="assets/sahith.png" alt="Sahith Bodla" />
+                  <div class="member-name">Sahith Bodla</div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <div class="team-grid">
+                <div
+                  class="team-member"
+                  data-name="Tyler Simms"
+                  data-description="Financial Analyst"
+                  data-education="BSM Finance & BS Computer Science, Masters of Accounting, Tulane University"
+                  data-work=""
+                  data-image="assets/tyler.png"
+                >
+                  <img src="assets/tyler.png" alt="Tyler Simms" />
+                  <div class="member-name">Tyler Simms</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-prev"
+            id="carouselPrev"
+            title="Previous slide"
+            aria-label="Previous slide"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button
+            class="carousel-next"
+            id="carouselNext"
+            title="Next slide"
+            aria-label="Next slide"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div class="modal" id="teamModal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <img id="modalImage" alt="Team Member" />
+        <h2 id="modalName"></h2>
+        <p id="modalDescription"></p>
+        <p id="modalEducation"></p>
+        <p id="modalWork"></p>
+      </div>
+    </div>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+      <div class="mission-content">
+        <h6>Our Mission</h6>
+        <h2>
+          OneSpace is more than just a workspace; it's the beginning of a digital landscape
+          revolution. As digital landscape architects, we seek to transform the way you interact
+          with your desktop environment.
+        </h2>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+      <div class="download-content">
+        <div class="download-text">
+          <h2>Stop waiting.<br />Start writing.</h2>
+          <h3>Click the icon to download!</h3>
+        </div>
+        <div class="download-logo">
+          <a href="https://onespace-app.s3.amazonaws.com/build/onespace-app.dmg">
+            <img src="assets/logo.jpg" alt="OneSpace Logo" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="section-container">
+        <h2>Contact Us</h2>
+        <div class="contact-methods">
+          <div class="contact-item">
+            <a
+              href="mailto:parisreine@onespace-app.com"
+              class="contact-link"
+              title="Email us"
+              aria-label="Email us"
+            >
+              <i class="fas fa-envelope contact-icon"></i>
+            </a>
+            <p>parisreine@onespace-app.com</p>
+          </div>
+          <div class="contact-item">
+            <a
+              href="https://www.instagram.com/onespace.app/"
+              target="_blank"
+              rel="noopener"
+              class="contact-link"
+              title="Follow us on Instagram"
+              aria-label="Follow us on Instagram"
+            >
+              <i class="fab fa-instagram contact-icon"></i>
+            </a>
+            <p>@onespace.app</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-text">
+          <div>&copy; OneSpace 2025. All Rights Reserved.</div>
+          <div class="footer-links">
+            <a href="#!">Privacy</a>
+            <span>&middot;</span>
+            <a href="#!">Terms</a>
+            <span>&middot;</span>
+            <a href="#!">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
